@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import todoReducer from "../TodoSlice.jsx";
+// Cấu hình store
 const store = configureStore({
     reducer: {
         todo: todoReducer,
